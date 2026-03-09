@@ -1,0 +1,8 @@
+join computer left
+computer: sup chika?
+label go back
+computer: bhjyf
+[text_input var="response"]
+if {response} == "...":
+	computer: not talkative?
+	jump go back

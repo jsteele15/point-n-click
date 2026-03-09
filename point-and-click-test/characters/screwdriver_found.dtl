@@ -1,0 +1,12 @@
+join computer left
+computer: found my screwdriver have you?
+-  | [=""]
+	ima get you
+	set {killed} = true
+- 
+	maybe not
+if {killed} == true:
+	join computer (duck dead) left
+	Your goin ta jail
+else:
+	heres a million smackeroose
